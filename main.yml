@@ -1,0 +1,20 @@
+---
+- hosts: all
+  remote_user: ec2-user
+  become: yes
+  become_method: sudo
+  # vars:
+  #   temp_folder: /tmp
+  
+  tasks:  
+    - name: upgrade all packages
+      yum: name=* state=latest
+
+    - include: tasks/git-install.yml
+
+    - include: tasks/nodejs-install.yml
+
+    - include: tasks/web-clone.yml
+
+    - include: tasks/web-start.yml
+

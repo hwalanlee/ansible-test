@@ -1,0 +1,8 @@
+- name: Install things for nodejs 
+  script: /home/ec2-user/ansible-test/sh/for-nodejs-install.sh
+
+
+
+
+
+

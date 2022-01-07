@@ -1,0 +1,9 @@
+- name: Clone web
+  git:
+    repo: https://github.com/hwalanlee/simple-nodejs.git
+    dest: /home/ec2-user/
+    clone: yes
+    update: yes
+
+- name: npm install 
+  shell: npm install --prefix /home/ec2-user/simple-nodejs/
