@@ -1,6 +1,7 @@
 git init && git add . && git commit -m "first commit" && git branch -M master && git remote add origin https://github.com/hwalanlee/ansible-test.git && git push -u origin master
 git add . && git commit -m "commit" && git push -u origin master
 
+https://github.com/panduroab/ansible-nodejs-playbook/blob/master/main.yml
 ------------------------------------------------------------------------------
 
 - ansible 설치 > inventory(/etc/ansible/hosts) 설정 > known hosts 등록 > 신규 inventory 설정
