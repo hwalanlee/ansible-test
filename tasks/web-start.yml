@@ -1,2 +1,2 @@
 - name: start web
-  script: sh/for-web-start.sh
+  script: /home/ec2-user/ansible-test/sh/for-web-start.sh
