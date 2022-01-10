@@ -1,7 +1,7 @@
 - name: Clone web
   git:
     repo: https://github.com/hwalanlee/simple-nodejs.git
-    dest: /home/ec2-user/
+    dest: /home/ec2-user/simple-nodejs
     clone: yes
     update: yes
 
